@@ -7,7 +7,7 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <link href="../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.3.1, mkdocs-material-8.3.9" name="generator"/>
-<title>Welcome to Tutor - Tutor For 100  ! ! !</title>
+<title>COMP2209 - Tutor For 100  ! ! !</title>
 <link href="../assets/stylesheets/main.1d29e8d0.min.css" rel="stylesheet"/>
 <link href="../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -21,7 +21,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#welcome-to-tutor">
+<a class="md-skip" href="#welcome-to-comp2209-programming-iii-lambda-haskell">
           Skip to content
         </a>
 </div>
@@ -45,7 +45,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Welcome to Tutor
+              COMP2209
             
           </span>
 </div>
@@ -75,7 +75,7 @@
     </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../COMP1511/">
+<a class="md-tabs__link md-tabs__link--active" href="../COMP1511/">
         Course
       </a>
 </li>
@@ -102,8 +102,8 @@
         Home
       </a>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_2">
           Course
           <span class="md-nav__icon md-icon"></span>
@@ -154,10 +154,57 @@
         COMP90048
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../COMP2209/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          COMP2209
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
         COMP2209
       </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#learning-outcomes-los">
+    Learning Outcomes (LOs)
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#aims-and-objectives">
+    Aims and Objectives
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#learning-outcomes">
+    Learning Outcomes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#list-comprehension">
+    关于List Comprehension
+  </a>
+<nav aria-label="关于List Comprehension" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-comprehension">
+    首先我们看看Set Comprehension
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#haskelllist-comprehension">
+    Haskell中的List Comprehension
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../COMP1100/">
@@ -182,14 +229,38 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#commands">
-    Commands
+<a class="md-nav__link" href="#learning-outcomes-los">
+    Learning Outcomes (LOs)
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#project-layout">
-    Project layout
+<a class="md-nav__link" href="#aims-and-objectives">
+    Aims and Objectives
   </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#learning-outcomes">
+    Learning Outcomes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#list-comprehension">
+    关于List Comprehension
+  </a>
+<nav aria-label="关于List Comprehension" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#set-comprehension">
+    首先我们看看Set Comprehension
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#haskelllist-comprehension">
+    Haskell中的List Comprehension
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -198,89 +269,159 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="welcome-to-tutor">Welcome to Tutor</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+<h1 id="welcome-to-comp2209-programming-iii-lambda-haskell">Welcome to COMP2209 Programming III Lambda演算 haskell入门</h1>
+<h2 id="learning-outcomes-los">Learning Outcomes (LOs)</h2>
 <ul>
-<li>一流的老师</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>
+<p>理解函数式编程的概念，并能够用这种风格编写程序;</p>
+</li>
+<li>
+<p>lamdba演算</p>
+</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
-<h1 id="who-are-us">Who are us</h1>
-<ul>
-<li>aaa</li>
-<li>bbb</li>
-<li>vvv</li>
-<li>
-<p>bbb</p>
-</li>
-<li>
-<p>aaa</p>
-</li>
-<li>bbb</li>
-<li>vvv</li>
-<li>
-<p>bbb</p>
-</li>
-<li>
-<p>aaa</p>
-</li>
-<li>bbb</li>
-<li>vvv</li>
-<li>
-<p>bbb</p>
-</li>
-<li>
-<p>aaa</p>
-</li>
-<li>bbb</li>
-<li>vvv</li>
-<li>
-<p>bbb</p>
-</li>
-<li>
-<p>aaa</p>
-</li>
-<li>bbb</li>
-<li>vvv</li>
-<li>
-<p>bbb</p>
-</li>
-<li>
-<p>aaa</p>
-</li>
-<li>bbb</li>
-<li>vvv</li>
-<li>
-<p>bbb</p>
-</li>
-<li>
-<p>aaa</p>
-</li>
-<li>bbb</li>
-<li>vvv</li>
-<li>
-<p>bbb</p>
-</li>
-<li>
-<p>aaa</p>
-</li>
-<li>bbb</li>
-<li>vvv</li>
-<li>bbb</li>
-</ul>
+<p>This module aims to introduce students to recursion and to the principles of recursive, applicative and functional programming. In it, they will use various functional abstractions to control the complexity of programming, and will use abstraction mechanisms in programming. They will also study the principles of program evaluation and explore the evaluation mechanism via a meta-circular evaluator.</p>
+<h2 id="aims-and-objectives">Aims and Objectives</h2>
+<h2 id="learning-outcomes">Learning Outcomes</h2>
+<p>Subject Specific Practical Skills
+Having successfully completed this module you will be able to:</p>
+<p>Program in a functional style
+Evaluate programs step by step
+Subject Specific Intellectual and Research Skills
+Having successfully completed this module you will be able to:</p>
+<p>Discuss and perform the decomposition of problems using procedural, data and metalinguistic abstractions
+Understand the concept of functional programming and be able to write programs in this style.
+Reason about evaluation mechanisms
+Knowledge and Understanding
+Having successfully completed this module, you will be able to demonstrate knowledge and understanding of:</p>
+<p>The principles of evaluation of programming language
+The key mechanisms underpinning the functional programming model</p>
+<h2 id="list-comprehension">关于List Comprehension</h2>
+<h3 id="set-comprehension">首先我们看看Set Comprehension</h3>
+<p 2="2" _="|" mod="mod" x="x">• In mathematics we use the set comprehension notation to
+construct new sets from existing sets.
+• This is the set { 1, 4, 9, 16, 25 }
+• Effectively, we ‘iterate’ across the set {1,2, 3, 4, 5} and apply the
+operation given to the left of the “such that” symbol (i.e. | ) .
+• This can be done for any set, including infinite sets,
+• Defines the set of all even natural numbers
+{ x2 | x ∈ {1,…,5} }</p>
+<h3 id="haskelllist-comprehension">Haskell中的List Comprehension</h3>
+<p>• Haskell likes to stay as close to the mathematics as it can so
+the syntax for List comprehension is very similar.
+• Produces the list of values [1,4,9,16,25] !
+• Produces the infinite list of even naturals
+• Here we have used the enumeration notation [n..m] as the
+generator.
+• In general, any expression that returns a list can be used as a
+generator.</p>
+<p>• List comprehensions may contain multiple generators.
+• For example,</p>
+<blockquote>
+<p>[ (x,y) | x &lt;- [1,2,3] , y &lt;- [4,5] ]
+= [(1,4),(1,5),(2,4),(2,5),(3,4),(3,5)]</p>
+</blockquote>
+<p>• The order the in which the generators appear is significant.
+• For example,</p>
+<blockquote>
+<p>[ (x,y) | y &lt;- [4,5] , x &lt;- [1,2,3] ]
+= [(1,4),(2,4),(3,4),(1,5),(2,5),(3,5)]</p>
+</blockquote>
+<p>• Think nested loops, with later generators as more deeply
+nested loops whose variables change value more frequently.</p>
+<p>Dependent Generators
+• Later generators can depend on the variables that are
+declared in earlier generators
+• Obviously the order of the generators is very important here
+• Nice example: flatten a list of lists to a single list</p>
+<blockquote>
+<p>[ (x,y) | x &lt;- [1..3] , y &lt;- [x..3] ]
+[(1,1),(1,2),(1,3),(2,2),(2,3),(3,3)]
+[ (x,y) | y &lt;- [x..3] , x &lt;- [1..3] ]
+error: Variable not in scope: x
+✔
+✘
+flatten :: [[a]] ! [a]
+flatten xss = [ x | xs &lt;- xss , x &lt;- xs ]</p>
+</blockquote>
+<p>Guards in List Comprehensions
+• List comprehensions may use guards to filter out the values
+produced by the generators.
+• Again, variables used in guards must be declared before their
+use.</p>
+<blockquote>
+<p>[ x | x &lt;- [1..10] , even x ]
+[2,4,6,8,10]
+[ x | even x , x &lt;- [1..10] ]
+error: Variable not in scope: x
+✔
+✘</p>
+</blockquote>
+<p>Let’s talk about tail calls.
+• If you read about recursive functions in various languages you
+will soon encounter discussions about tail recursion and tail
+call optimisation.
+• A recursive function is tail recursive if, put very roughly, there
+is no suspended computation built up in the execution stack
+as the recursion unfolds.
+• For example
+• Is not tail recursive!
+fac :: Int ! Int
+fac 0 = 1
+fac n = n * fac (n-1)
+fac 3
+= 3 * fac 2
+= 3 * (2 * fac 1)
+= 3 * (2 * (1 * fac 0))
+= 3 * (2 * (1 * 1))
+= 3 * (2 * 1)
+= 3*2
+= 6</p>
+<p>Tail Recursion - efficiency loss
+• Be careful though, tail recursion doesn’t always produce
+better results.
+• For recursion where the output is structured data and the
+recursive call is guarded by the value constructor then
+Haskell’s laziness lets us use non-tail recursive calls
+effectively.
+• For example : consider the function that replicates a given
+value a given number of times in a list.
+• We’ll define this both directly and tail recursively to see the
+difference.
+• Note that the tail recursively version here suffers terribly
+when only a portion of the output is required</p>
 </article>
 </div>
 </div>
 </main>
 <footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: COMP90048" class="md-footer__link md-footer__link--prev" href="../COMP90048/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              COMP90048
+            </div>
+</div>
+</a>
+<a aria-label="Next: COMP1100" class="md-footer__link md-footer__link--next" href="../COMP1100/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              COMP1100
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
 <div class="md-footer-meta md-typeset">
 <div class="md-footer-meta__inner md-grid">
 <div class="md-copyright">
